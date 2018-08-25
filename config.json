@@ -1,0 +1,27 @@
+[
+  {
+    "server_id": 2,
+    "remote": {
+      "ip": "127.0.0.1",
+      "port": 10011
+    },
+    "listen": {
+      "ip": "127.0.0.1",
+      "port": 13001
+    },
+    "packet_changer": {
+      "auth_replacement": [
+        {
+          "login_replace": "07artem132",
+          "password_replace": "secret",
+          "to_login": "serveradmin",
+          "to_password": "111111"
+        }
+      ]
+    },
+    "white_list": [
+      "127.0.0.1"
+    ],
+    "update_at": 1535229501
+  }
+]
