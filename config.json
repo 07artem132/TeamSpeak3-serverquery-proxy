@@ -3,11 +3,13 @@
     "server_id": 2,
     "remote": {
       "ip": "127.0.0.1",
-      "port": 10011
+      "port": 10011,
+      "file_transfer": 30033
     },
     "listen": {
       "ip": "127.0.0.1",
-      "port": 13001
+      "port": 13000,
+      "file_transfer": 12000
     },
     "packet_changer": {
       "auth_replacement": [
@@ -15,9 +17,10 @@
           "login_replace": "07artem132",
           "password_replace": "secret",
           "to_login": "serveradmin",
-          "to_password": "111111"
+          "to_password": "D4ypB7RO"
         }
-      ]
+      ],
+      "file_transfer_port": true
     },
     "white_list": [
       "127.0.0.1"
